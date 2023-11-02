@@ -1,0 +1,77 @@
+body {
+  font-family: "Courier New", monospace;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  color: #0F0;
+  position: relative;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("https://www.bing.com/th/id/OGC.1ad9615cf11af440adbc02644aa52d30?pid=1.7&rurl=http%3a%2f%2f31.media.tumblr.com%2f994de0f6d0f8fe4e44c9d8afbf74606e%2ftumblr_nhsqnhRfUj1u79o2lo1_1280.gif&ehk=a5%2bXOeNujaBjNCd8vDMSBvOFuagoUXFZGgf9pL%2bVmNc%3d") center/cover no-repeat;
+  opacity: 0.9; /* Adjust the opacity of the image to your liking */
+  z-index: -1;
+}
+
+header {
+  background-color: #000;
+  color: #0F0;
+  text-align: center;
+  padding: 1rem;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+h1 {
+  margin-bottom: 1.5rem;
+}
+
+h2 {
+  margin-bottom: 0.5rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+pre {
+  background-color: #000;
+  color: #0F0;
+  border: 1px solid #0F0;
+  padding: 0.5rem;
+  border-radius: 5px;
+  overflow-x: auto;
+}
+
+a {
+  color: #00F;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  main {
+      padding: 1rem;
+  }
+}
